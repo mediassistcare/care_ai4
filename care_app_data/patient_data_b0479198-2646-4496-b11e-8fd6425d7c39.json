@@ -1,0 +1,353 @@
+{
+  "session_info": {
+    "session_id": "b0479198-2646-4496-b11e-8fd6425d7c39",
+    "username": "ROHIT1",
+    "created_at": "2025-08-24T14:00:20.626319",
+    "last_updated": "2025-08-24T14:54:14.079814",
+    "highest_step_completed": 7
+  },
+  "step1": {
+    "step_name": "Case Category Selection",
+    "form_data": {
+      "case_category": "illness"
+    },
+    "ai_generated_data": {},
+    "files_uploaded": {},
+    "timestamp": "2025-08-24T14:00:20.630100",
+    "data_source": "user_input",
+    "step_completed": true
+  },
+  "step2": {
+    "step_name": "Patient Registration",
+    "form_data": {
+      "full_name": "Savani Monika Dignesbhai",
+      "date_of_birth": "1995-04-04",
+      "gender": "female",
+      "address": "227/228, KRUSHNA NAGAR, COUSWAY ROAD,, NEAR MULTI-PURPAJ HALL,, KATARGAM, Surat City, Suraj Gujarat - 395004",
+      "language": "english",
+      "occupation": "farmer",
+      "marital_status": "single",
+      "education_level": "primary",
+      "employment_status": "employed",
+      "economic_status": "lower",
+      "income_source": "employment",
+      "diabetes": "no",
+      "hypertension": "no",
+      "asthma": "no",
+      "heart_disease": "no",
+      "family_history": "none",
+      "calculated_age": "30",
+      "lab_reports": "yes",
+      "medical_images": "yes",
+      "signaling_reports": "yes",
+      "emr_existing": "yes",
+      "emr_register": "no",
+      "currently_pregnant": "no",
+      "recent_childbirth": "no"
+    },
+    "ai_generated_data": {
+      "aadhaar_extraction": {
+        "aadhaar_number": "2888 6761 6316",
+        "address": "227/228, KRUSHNA NAGAR, COUSWAY ROAD,, NEAR MULTI-PURPAJ HALL,, KATARGAM, Surat City, Suraj Gujarat - 395004",
+        "date_of_birth": "04/04/1995",
+        "extracted_from": "both sides",
+        "extraction_confidence": "high",
+        "full_name": "Savani Monika Dignesbhai",
+        "gender": "FEMALE"
+      }
+    },
+    "files_uploaded": {
+      "aadhar_combined": {
+        "filename": "aadhaar.jpg",
+        "upload_timestamp": "2025-08-24T14:02:34.277127",
+        "field_name": "aadhar_combined",
+        "content_type": "image/jpeg"
+      },
+      "insurance_doc": {
+        "filename": "INSURANCE_CARD.pdf",
+        "upload_timestamp": "2025-08-24T14:02:34.277127",
+        "field_name": "insurance_doc",
+        "content_type": "application/pdf"
+      }
+    },
+    "timestamp": "2025-08-24T14:02:34.309429",
+    "data_source": "user_input_and_extraction",
+    "step_completed": true
+  },
+  "step3": {
+    "step_name": "Vital Signs & Medical Photos",
+    "form_data": {
+      "temperature": "103",
+      "temperature_unit": "celsius",
+      "oxygen_saturation": "79",
+      "blood_glucose": "399",
+      "glucose_timing": "random",
+      "lung_congestion": "none",
+      "water_in_lungs": "none",
+      "ecg_available": "no"
+    },
+    "ai_generated_data": {
+      "tongue_ai_insights": "{\"concerns\":[\"Presence of a thin coating could suggest mild dehydration or early oral candidiasis, but not definitively\",\"No signs of significant inflammation or lesions to suggest active infection or pathology\"],\"confidence_level\":\"Medium\",\"follow_up_needed\":\"Yes, if there are persistent or worsening symptoms such as increased coating, discomfort, or changes in appearance. Otherwise, routine oral health maintenance is sufficient.\",\"general_findings\":\"The tongue appears moist with a pink coloration and a relatively smooth surface, with some mild surface texture. The overall appearance suggests a generally healthy tongue with no obvious signs of severe pathology.\",\"normal_features\":[\"Pink coloration\",\"Moist surface\",\"Absence of ulcers or lesions\",\"No swelling or asymmetry\"],\"recommendations\":\"Monitor for any changes in color, coating, or texture. Maintain good oral hygiene. If symptoms such as persistent coating, discomfort, or other oral issues develop, consult a healthcare professional for further evaluation.\",\"specific_observations\":[\"Pink coloration indicating normal blood flow and tissue health\",\"Presence of a thin, whitish coating predominantly on the dorsal surface\",\"Central longitudinal fissure visible, with no significant swelling or asymmetry\",\"No obvious lesions, ulcers, or abnormal spots observed\",\"Surface texture appears slightly rough but within normal variation\",\"No signs of inflammation, swelling, or abnormal coloration\",\"Tongue appears to be in a normal position, with no mobility issues visible\"]}"
+    },
+    "files_uploaded": {
+      "tongue_photo": {
+        "filename": "tongue.jpg",
+        "upload_timestamp": "2025-08-24T14:03:01.933601",
+        "file_size": 145585,
+        "content_type": "image/jpeg",
+        "photo_type": "tongue"
+      }
+    },
+    "timestamp": "2025-08-24T14:03:01.962165",
+    "data_source": "user_input_and_analysis",
+    "step_completed": true
+  },
+  "step4": {
+    "step_name": "Medical Records & Contact Information",
+    "form_data": {},
+    "ai_generated_data": {
+      "generated_questions": "[{\"abnormal_finding\":\"Body Temperature: 103.0 \u00b0C (Elevated - Normal: 36.1-37.2 \u00b0C)\",\"medical_concern\":\"hyperthermia or fever\",\"priority\":\"critical\",\"question\":\"Your body temperature is 103.0 \u00b0C, which is critically high. Are you experiencing symptoms such as chills, sweating, or feeling extremely weak or confused?\"},{\"abnormal_finding\":\"Oxygen Saturation: 79.0 % (Low - Normal: 95-100 %)\",\"medical_concern\":\"hypoxemia\",\"priority\":\"critical\",\"question\":\"Your oxygen saturation is 79.0%, which is significantly below normal. Are you experiencing shortness of breath, chest pain, or dizziness?\"},{\"abnormal_finding\":\"Blood Glucose: 399.0 mg/dL (Elevated - Normal: 70-140 mg/dL)\",\"medical_concern\":\"hyperglycemia or diabetic ketoacidosis\",\"priority\":\"critical\",\"question\":\"Your blood glucose level is 399.0 mg/dL, which is very high. Are you experiencing increased thirst, frequent urination, blurred vision, or weakness?\"}]"
+    },
+    "files_uploaded": {},
+    "timestamp": "2025-08-24T14:03:12.972870",
+    "data_source": "user_input_and_analysis",
+    "step_completed": true
+  },
+  "step5": {
+    "step_name": "Complaints & Symptoms",
+    "form_data": {
+      "complaint_text": "vision discomfort, weight loss, wounds not healing , thirsty"
+    },
+    "ai_generated_data": {
+      "symptom_insights": {
+        "key_insights": [
+          "The combination of hyperglycemia, dehydration, and vision discomfort suggests uncontrolled diabetes with possible metabolic decompensation.",
+          "High temperature and low oxygen saturation are concerning for infection or systemic illness.",
+          "Urgent medical evaluation and stabilization are required to prevent further deterioration."
+        ],
+        "medical_labels": [
+          {
+            "category": "condition",
+            "confidence": 90,
+            "description": "Elevated blood glucose levels, indicating poor glucose control, potentially diabetic ketoacidosis or uncontrolled diabetes.",
+            "label": "Hyperglycemia",
+            "severity": "severe"
+          },
+          {
+            "category": "finding",
+            "confidence": 80,
+            "description": "Signs of significant fluid loss, possibly due to hyperglycemia or other metabolic disturbances.",
+            "label": "Dehydration",
+            "severity": "moderate"
+          },
+          {
+            "category": "symptom",
+            "confidence": 85,
+            "description": "Altered or uncomfortable vision, which can be associated with hyperglycemia or other ocular issues.",
+            "label": "Vision discomfort",
+            "severity": "moderate"
+          },
+          {
+            "category": "finding",
+            "confidence": 85,
+            "description": "Impaired wound healing, often linked to metabolic disturbances such as hyperglycemia or immune dysfunction.",
+            "label": "Wound non-healing",
+            "severity": "moderate"
+          },
+          {
+            "category": "symptom",
+            "confidence": 90,
+            "description": "Excessive thirst, commonly associated with hyperglycemia and dehydration.",
+            "label": "Polydipsia",
+            "severity": "moderate"
+          }
+        ],
+        "symptom_summary": {
+          "affected_systems": [
+            "endocrine",
+            "metabolic",
+            "ocular",
+            "integumentary"
+          ],
+          "duration_significance": "Rapid onset or progression indicates urgent need for intervention.",
+          "next_steps": "Immediate hospital assessment, blood tests (including arterial blood gases), hydration, and glucose management. Investigate for infection or other precipitating factors.",
+          "primary_concern": "Severe hyperglycemia with systemic symptoms"
+        },
+        "urgency_assessment": {
+          "immediate_concerns": [
+            "Severe hyperglycemia",
+            "Dehydration",
+            "Potential diabetic ketoacidosis",
+            "Hypoxia"
+          ],
+          "level": "critical",
+          "reasoning": "The patient exhibits extremely high blood glucose (399 mg/dL), hyperthermia (103\u00b0C, likely a typo, possibly 103\u00b0F), and hypoxia (SpO2 79%), indicating a potentially life-threatening metabolic crisis such as diabetic ketoacidosis or severe infection."
+        }
+      },
+      "insights_generated_at": "2025-08-24T14:04:03.746362"
+    },
+    "files_uploaded": {},
+    "timestamp": "2025-08-24T14:04:03.754846",
+    "data_source": "user_input_and_ai_analysis",
+    "step_completed": true
+  },
+  "step6": {
+    "step_name": "Analysis & Diagnosis",
+    "form_data": {
+      "assessment_completed": true,
+      "clinical_summary_saved": true,
+      "final_completion_timestamp": "2025-08-24T14:06:22.314496"
+    },
+    "ai_generated_data": {
+      "clinical_summary": "\n                    Clinical SummaryPatient Information:Name: Savani Monika Dignesbhai  Age: 30 years  Gender: Female  Occupation: Farmer  Marital Status: SingleVital Signs:- Temperature: 103\u00b0C (febrile, markedly elevated)  - Oxygen Saturation: 79% (hypoxemic)  - Blood Glucose (random): 399 mg/dL (severe hyperglycemia)  - Lung Congestion: None documentedPresenting Complaints:- Vision discomfort (moderate) characterized by blurry or strange sensation in the eyes  - Weight loss (not quantified)  - Non-healing wounds (moderate severity, wounds take longer to heal)  - Thirst (moderate), with associated increased urination (polydipsia and polyuria)  - Additional symptoms include fatigue or weakness (sometimes), dry or sticky skin (denied), eye strain or tiredness (yes), and difficulty performing daily activities (very difficult)Clinical Findings:- Fever: Elevated to 103\u00b0C, indicating significant febrile response  - Hypoxemia: Oxygen saturation at 79%, suggestive of compromised respiratory function or severe metabolic disturbance  - Hyperglycemia: Blood glucose markedly elevated at 399 mg/dL, indicating uncontrolled diabetes mellitus  - No clinical evidence of lung congestion noted  - Patient reports symptoms consistent with severe metabolic imbalance, dehydration, and possible diabetic ketoacidosisSymptom Analysis:- Hyperglycemia: Severe, with associated symptoms of thirst, frequent urination, and non-healing wounds  - Dehydration: Moderate, inferred from clinical presentation and hyperglycemia  - Vision Discomfort: Moderate, associated with visual disturbances such as blurriness and eye strain  - Wound Healing: Impaired, wounds are slow to heal despite some episodes of healing  - Thirst: Moderate, with increased urination and subjective sensation of dryness or parched mouth at times  - Fatigue and weakness: Occasionally experienced, impacting daily activities  - Skin: No dryness or stickiness reported during assessmentSymptom Characteristics:- Onset of increased thirst approximately one week prior to presentation  - Wounds have been problematic over a period, sometimes healing, sometimes not  - Visual discomfort described as blurry or strange, especially after screen use or reading  - Increased urination correlates with episodes of intense thirst  - No reports of skin dryness or stickiness during current assessment  - Difficulty with daily activities rated as very difficult due to symptom burdenAssessment Summary:The patient presents with severe hyperglycemia (blood glucose 399 mg/dL), febrile state (temperature 103\u00b0C), and hypoxemia (SpO\u2082 79%). Clinical features include signs of significant dehydration, visual disturbances, impaired wound healing, and polydipsia. The symptom profile suggests uncontrolled diabetes mellitus with possible metabolic decompensation, such as diabetic ketoacidosis, compounded by systemic febrile illness and hypoxemia. No evidence of lung congestion was documented.\n                ",
+      "summary_accepted_at": "2025-08-24T14:06:22.314496",
+      "assessment_completed": true,
+      "final_review_status": "completed",
+      "user_action": "clicked_complete_assessment"
+    },
+    "files_uploaded": {},
+    "timestamp": "2025-08-24T14:06:22.325068",
+    "data_source": "ai_analysis",
+    "step_completed": true
+  },
+  "step7": {
+    "step_name": "ICD11 Code Generation & Analysis",
+    "form_data": {
+      "clinical_summary_edited": "Patient Clinical Summary\nPatient Information:\n- Name: Savani Monika Dignesbhai\n- Age: 30 years\n- Gender: Female\nVital Signs:\n- Temperature: 103\u00b0C (febrile, markedly elevated)\n- Oxygen Saturation: 79% (hypoxemic)\n- Blood Glucose: 399 mg/dL (severe hyperglycemia)\n- Other vitals: None documented\nPresenting Complaints:\n- Chief Complaint: Vision discomfort (moderate) characterized by blurry or strange sensation in the eyes\n- Symptom Analysis:\n- Vision Discomfort: Moderate, associated with visual disturbances such as blurriness and eye strain\n- Weight Loss: Not quantified\n- Non-healing Wounds: Moderate severity, wounds take longer to heal\n- Thirst: Moderate, with associated increased urination (polydipsia and polyuria)\n- Additional Symptoms:\n- Fatigue or weakness: Sometimes\n- Dry or sticky skin: Denied\n- Eye strain or tiredness: Yes\n- Difficulty performing daily activities: Very difficult\n- Additional Symptoms impact on daily activities: Very difficult\nClinical Findings:\n- Fever: Elevated to 103\u00b0C, indicating significant febrile response\n- Hypoxemia: Oxygen saturation at 79%, suggestive of compromised respiratory function or severe metabolic disturbance\n- Hyperglycemia: Blood glucose markedly elevated at 399 mg/dL\n- No clinical evidence of lung congestion noted\n- Patient reports symptoms consistent with severe metabolic imbalance, dehydration, and possible diabetic ketoacidosis\nDetailed Symptom Assessment:\n- Onset:\n- Thirst: Approximately one week prior to presentation\n- Wounds: Over a period, sometimes healing, sometimes not\n- Visual Discomfort: Not specified\n- Increased urination: Not specified\n- Characteristics:\n- Thirst: Subjective sensation of dryness or parched mouth at times\n- Wounds: Slow to heal despite some episodes of healing\n- Visual Discomfort: Blurry or strange sensation, especially after screen use or reading\n- Increased urination: Correlates with episodes of intense thirst\n- Severity:\n- Hyperglycemia: Severe\n- Fever: Significant\n- Hypoxemia: Severe\n- Vision Discomfort: Moderate\n- Wound Healing: Impaired\n- Thirst: Moderate\n- Fatigue and Weakness: Occasional\n- Relieving Factors:\n- Not documented\n- Aggravating Factors:\n- Not documented\n- Temporal Pattern:\n- Symptoms such as increased thirst and visual disturbances have been ongoing for about a week\n- Associated Symptoms:\n- Increased urination\n- Fatigue or weakness\n- Visual disturbances\n- Functional Impact:\n- Very difficult to perform daily activities due to symptom burden\nAssessment Summary:\nThe patient presents with severe hyperglycemia (blood glucose 399 mg/dL), febrile state (temperature 103\u00b0C), and hypoxemia (SpO\u2082 79%). Clinical features include signs of significant dehydration, visual disturbances, impaired wound healing, and polydipsia. The symptom profile suggests uncontrolled diabetes mellitus with possible metabolic decompensation, such as diabetic ketoacidosis, compounded by systemic febrile illness and hypoxemia. No evidence of lung congestion was documented.",
+      "completion_timestamp": "2025-08-24T09:24:14.037Z",
+      "session_duration": 652314
+    },
+    "ai_generated_data": {
+      "original_clinical_summary": "\n                    Clinical SummaryPatient Information:Name: Savani Monika Dignesbhai  Age: 30 years  Gender: Female  Occupation: Farmer  Marital Status: SingleVital Signs:- Temperature: 103\u00b0C (febrile, markedly elevated)  - Oxygen Saturation: 79% (hypoxemic)  - Blood Glucose (random): 399 mg/dL (severe hyperglycemia)  - Lung Congestion: None documentedPresenting Complaints:- Vision discomfort (moderate) characterized by blurry or strange sensation in the eyes  - Weight loss (not quantified)  - Non-healing wounds (moderate severity, wounds take longer to heal)  - Thirst (moderate), with associated increased urination (polydipsia and polyuria)  - Additional symptoms include fatigue or weakness (sometimes), dry or sticky skin (denied), eye strain or tiredness (yes), and difficulty performing daily activities (very difficult)Clinical Findings:- Fever: Elevated to 103\u00b0C, indicating significant febrile response  - Hypoxemia: Oxygen saturation at 79%, suggestive of compromised respiratory function or severe metabolic disturbance  - Hyperglycemia: Blood glucose markedly elevated at 399 mg/dL, indicating uncontrolled diabetes mellitus  - No clinical evidence of lung congestion noted  - Patient reports symptoms consistent with severe metabolic imbalance, dehydration, and possible diabetic ketoacidosisSymptom Analysis:- Hyperglycemia: Severe, with associated symptoms of thirst, frequent urination, and non-healing wounds  - Dehydration: Moderate, inferred from clinical presentation and hyperglycemia  - Vision Discomfort: Moderate, associated with visual disturbances such as blurriness and eye strain  - Wound Healing: Impaired, wounds are slow to heal despite some episodes of healing  - Thirst: Moderate, with increased urination and subjective sensation of dryness or parched mouth at times  - Fatigue and weakness: Occasionally experienced, impacting daily activities  - Skin: No dryness or stickiness reported during assessmentSymptom Characteristics:- Onset of increased thirst approximately one week prior to presentation  - Wounds have been problematic over a period, sometimes healing, sometimes not  - Visual discomfort described as blurry or strange, especially after screen use or reading  - Increased urination correlates with episodes of intense thirst  - No reports of skin dryness or stickiness during current assessment  - Difficulty with daily activities rated as very difficult due to symptom burdenAssessment Summary:The patient presents with severe hyperglycemia (blood glucose 399 mg/dL), febrile state (temperature 103\u00b0C), and hypoxemia (SpO\u2082 79%). Clinical features include signs of significant dehydration, visual disturbances, impaired wound healing, and polydipsia. The symptom profile suggests uncontrolled diabetes mellitus with possible metabolic decompensation, such as diabetic ketoacidosis, compounded by systemic febrile illness and hypoxemia. No evidence of lung congestion was documented.\n                ",
+      "icd_codes_generated": [
+        {
+          "code": "5A11.Z",
+          "description": "A severe metabolic complication of diabetes mellitus characterized by hyperglycemia, metabolic acidosis, dehydration, and ketonemia, consistent with the patient's severe hyperglycemia (399 mg/dL), dehydration signs, and systemic illness.",
+          "confidence": 95,
+          "category": "",
+          "urgency": ""
+        },
+        {
+          "code": "2A00.Z",
+          "description": "The patient exhibits a high fever (103\u00b0C), indicating systemic febrile illness of unspecified origin, which is common in infectious or inflammatory states.",
+          "confidence": 90,
+          "category": "",
+          "urgency": ""
+        }
+      ],
+      "diagnostic_tests_recommended": [
+        {
+          "test_name": "Arterial Blood Gas (ABG) Analysis",
+          "category": "Laboratory",
+          "rationale": "",
+          "urgency": "Immediate",
+          "expected_findings": "Metabolic acidosis with elevated anion gap, decreased pCO2, and hypoxemia parameters consistent with DKA and respiratory compromise.",
+          "cost_estimate": "",
+          "preparation_required": false
+        },
+        {
+          "test_name": "Serum Electrolytes, Blood Urea Nitrogen (BUN), Creatinine",
+          "category": "Laboratory",
+          "rationale": "",
+          "urgency": "Immediate",
+          "expected_findings": "Elevated serum glucose, hyponatremia/hypernatremia, hyperkalemia or hypokalemia, elevated BUN/Creatinine indicating dehydration or renal impairment.",
+          "cost_estimate": "",
+          "preparation_required": false
+        },
+        {
+          "test_name": "Serum Ketones (Beta-hydroxybutyrate)",
+          "category": "Laboratory",
+          "rationale": "",
+          "urgency": "Immediate",
+          "expected_findings": "Elevated beta-hydroxybutyrate levels confirming ketosis.",
+          "cost_estimate": "",
+          "preparation_required": false
+        },
+        {
+          "test_name": "Blood Glucose (Repeat and monitor)",
+          "category": "Laboratory",
+          "rationale": "",
+          "urgency": "Immediate",
+          "expected_findings": "Persistent severe hyperglycemia (>300 mg/dL).",
+          "cost_estimate": "",
+          "preparation_required": false
+        },
+        {
+          "test_name": "Blood Cultures (aerobic and anaerobic)",
+          "category": "Laboratory",
+          "rationale": "",
+          "urgency": "Within 24-48 hours",
+          "expected_findings": "Growth of pathogenic bacteria or fungi indicating infection.",
+          "cost_estimate": "",
+          "preparation_required": false
+        }
+      ],
+      "generation_timestamp": "2025-08-24T14:54:14.052893"
+    },
+    "files_uploaded": {},
+    "timestamp": "2025-08-24T14:54:14.079814",
+    "data_source": "icd_generation",
+    "step_completed": true
+  },
+  "step_completion_status": {
+    "step1": {
+      "completed": true,
+      "timestamp": "2025-08-24T14:00:20.630100",
+      "form_fields_count": 1,
+      "ai_fields_count": 0,
+      "files_count": 0
+    },
+    "step2": {
+      "completed": true,
+      "timestamp": "2025-08-24T14:02:34.310451",
+      "form_fields_count": 24,
+      "ai_fields_count": 1,
+      "files_count": 2
+    },
+    "step3": {
+      "completed": true,
+      "timestamp": "2025-08-24T14:03:01.962165",
+      "form_fields_count": 8,
+      "ai_fields_count": 1,
+      "files_count": 1
+    },
+    "step4": {
+      "completed": true,
+      "timestamp": "2025-08-24T14:03:12.983836",
+      "form_fields_count": 0,
+      "ai_fields_count": 1,
+      "files_count": 0
+    },
+    "step5": {
+      "completed": true,
+      "timestamp": "2025-08-24T14:04:03.754846",
+      "form_fields_count": 1,
+      "ai_fields_count": 2,
+      "files_count": 0
+    },
+    "step6": {
+      "completed": true,
+      "timestamp": "2025-08-24T14:06:22.325068",
+      "form_fields_count": 3,
+      "ai_fields_count": 5,
+      "files_count": 0
+    },
+    "step7": {
+      "completed": true,
+      "timestamp": "2025-08-24T14:54:14.079814",
+      "form_fields_count": 3,
+      "ai_fields_count": 4,
+      "files_count": 0
+    }
+  },
+  "step_completed": 7,
+  "registration": {
+    "insurance_extracted_text": {
+      "text": "=== BASIC TEXT EXTRACTION ===\n=== PAGE 1 ===\n\t\r \u00a0Thank\t\r \u00a0you\t\r \u00a0for\t\r \u00a0taking\t\r \u00a0the\t\r \u00a0time\t\r \u00a0to\t\r \u00a0complete\t\r \u00a0and\t\r \u00a0sign\t\r \u00a0the\t\r \u00a0required\t\r \u00a0health\t\r \u00a0forms.\t\r \u00a0\t\r \u00a0\t\r \u00a0Please\t\r \u00a0remember\t\r \u00a0to\t\r \u00a0include\t\r \u00a0an\t\r \u00a0ENLARGED\t\r \u00a0copy\t\r \u00a0of\t\r \u00a0the\t\r \u00a0front\t\r \u00a0and\t\r \u00a0back\t\r \u00a0of\t\r \u00a0your\t\r \u00a0insurance\t\r \u00a0cards:\t\r \u00a0\t\r \u00a0(1)\t\r \u00a0\t\r \u00a0medical\t\r \u00a0card;\t\r \u00a0\t\r \u00a0(2)\t\r \u00a0\t\r \u00a0prescription\t\r \u00a0card\t\r \u00a0(if\t\r \u00a0you\t\r \u00a0have\t\r \u00a0one);\t\r \u00a0and\t\r \u00a0(3)\t\r \u00a0dental\t\r \u00a0card\t\r \u00a0(if\t\r \u00a0you\t\r \u00a0have\t\r \u00a0one).\t\r \u00a0\t\r \u00a0\t\r \u00a0\t\r \u00a0\t\r \u00a0\t\r \u00a0\t\r \u00a0EXAMPLE:\t\r \u00a0\t\r \u00a0ENLARGED\t\r \u00a0COPY\t\r \u00a0OF\t\r \u00a0INSURANCE\t\r \u00a0CARD\t\r \u00a0-\u00ad\u2010\t\r \u00a0FRONT\t\r \u00a0\t\r \u00a0\t\r \u00a0\t\r \u00a0\n\t\r \u00a0\t\r \u00a0\t\r \u00a0EXAMPLE:\t\r \u00a0\t\r \u00a0ENLARGED\t\r \u00a0COPY\t\r \u00a0OF\t\r \u00a0INSURANCE\t\r \u00a0CARD\t\r \u00a0\u2013\t\r \u00a0BACK\t\r \u00a0\t\r \u00a0\n\t\r \u00a0SUBSCRIBER NAME                               COMPANY/GROUP  Member ID:  XXX123456  Account Number:  123456 Rx Bin:                  123456 PCN:                 12345678  \n\n=== COMPREHENSIVE OCR EXTRACTION ===\n=== PAGE 1 (COMPREHENSIVE OCR) ===\nThank you for taking the time to complete and sign the required health forms.\n\nPlease remember to include an ENLARGED copy of the front and back of your insurance cards: (1) medical card; (2) prescription card (if you have one); and (3) dental card (if you have one).\n\nEXAMPLE: ENLARGED COPY OF INSURANCE CARD - FRONT\n\nBlueCross BlueShield of Delaware\n\nSUBSCRIBER NAME                     COMPANY/GROUP\n\nMember ID: XXX123456\n\nBenefit Plan: [icon]\n\nAccount Number: 123456\nRx Bin: 123456\nPCN: 12345678\n\nRx DZ RX: $15/$30/$60\n\nEXAMPLE: ENLARGED COPY OF INSURANCE CARD \u2013 BACK\n\nBlueCross BlueShield of Delaware\n\nCustomers: To secure the highest level of benefits, medical care must be provided by a Network Provider. If you are away from home and need care, call 800-810-BLUE to find a provider in an approved network. For precertification requirements, please read your benefits literature.\n\nProviders: Send claims to your local Blue Plan.\n\nbcbsde.com\n\nCustomer Service: (302)429-0260 (800)633-2563\n\nArgus Pharmacy*: (800)314-9674\n\nProvider Service: Eligibility and Benefits: (302)575-0609 / (800)342-2221\nManaged Care: (302)421-3333 / (800)572-2872\nMental Health / Substance Abuse: (302)421-2500 / (800)421-4577\n\n*Not a Blue Cross Blue Shield Product\n\nPO Box 8830, Wilmington DE 19899-8830\nAn independent licensee of the Blue Cross and Blue Shield Association\n\n",
+      "extraction_method": "comprehensive_pdf_ocr",
+      "file_type": "PDF",
+      "extracted_at": "2025-08-24T14:01:35.986367",
+      "file_name": "INSURANCE_CARD.pdf"
+    }
+  }
+}
